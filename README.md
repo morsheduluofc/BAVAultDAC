@@ -7,6 +7,4 @@ A BAVault is similary to the fuzzy vault (see link to know about fuzzy vault:htt
 To unlock a BAVault a feature-based matching algorithm of the BA system employs a similarity function to decide if two sets of samples have the same underlying distribution and output a confidence value. A larger output value corresponds to higher confidence about the 'sameness' of the distributions of the two sets. You can follow the link (https://link.springer.com/chapter/10.1007/978-3-030-58201-2_20) to know more about BAVault and its unlocking process: 
 
 ## DAC
-Touchalytics uses users' touch data (up-down and left-right scrolling) when interacting with an app. It uses the collected touch data for user authentication. The system uses 30 behavioral features and data from 41 users. 
-
-We downloaded touchalytics data from the link http://www.mariofrank.net/touchalytics/. We then cleaned the data by replacing 'NaN' and 'Infinity' by zero and dropped the 'doc id', 'phone id', and 'change of finger orientation' columns.
+DAC is a challenge-response based behavioral authentication system. It constructs a profile for each user, based on their circle drawing activity, and stores it at the server. During an authentication session, the collected user data is compared against stored profile to make an authentication decision. DAC is implemented as an app for Android user. For DAC, we collected data from 199 Amazon Mechanical Turks (AMT).
