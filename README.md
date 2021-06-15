@@ -1,5 +1,5 @@
 # DACBAVAult
-We implemented and evaluated our proposed BAVault using DAC data and named it as DACBAVault.
+We implemented and evaluated our proposed BAVault using DAC data and named it as DACBAVault. We used MatLab for implemenation and run the Main.m file.
 
 ## BAVault
 A BAVault is similary to the fuzzy vault (see link to know about the fuzzy vault:https://ieeexplore.ieee.org/abstract/document/4378259?casa_token=Uxv388LUZr8AAAAA:D1wGXNbUwOwbWTBmk9BDr7OfN1dsoyvGlJtfGEY-mtNHC2UVj9x7XPzsed6glTiocXme4m12hw) and uses behavioral profile X of a BA system rather to lock the vault. The BAVault will open only by using the another behavioral profile Y of the BA system of same user. Here, a BA profile is seen as a collection of sample sets of d features where every feature has its data distribution.
